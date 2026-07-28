@@ -1,5 +1,7 @@
 # Security Advisory: HTTP Request Smuggling via Unparsed Transfer-Encoding Values (tiny_http)
 
+**Assigned CVE ID:** CVE-2026-66752
+
 ## Summary
 
 tiny_http checks only whether a `Transfer-Encoding` header is present. It never
